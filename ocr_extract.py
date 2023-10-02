@@ -15,8 +15,8 @@ class ocr_extract:
         self.client = boto3.client(
             'textract', 
             region_name='us-east-2', 
-            aws_access_key_id='AKIAWHYXBOXDSYNX6A7I', 
-            aws_secret_access_key='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'
+            aws_access_key_id='', 
+            aws_secret_access_key=''
         )
 
 
